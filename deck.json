@@ -1,0 +1,677 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c691e1fe-9eaf-11ef-9331-f5c2ce7b5355",
+    "deck_config_uuid": "c691e726-9eaf-11ef-9331-f5c2ce7b5355",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "c691e726-9eaf-11ef-9331-f5c2ce7b5355",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsEnabled": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rescheduleFsrsCards": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "Andrius Kubilius_0.png",
+        "Apostolos_Tzitzikostas.png",
+        "Christophe.Hansen.png",
+        "Costas Kadis_0.png",
+        "Dan Jørgensen_0.png",
+        "Dubravka Šuica_1.png",
+        "Ekaterina Zaharieva_0.png",
+        "Glenn Micallef_0.png",
+        "Hadja Lahbib_0.png",
+        "Henna Virkkunen_0.png",
+        "Jessika Roswall_0.png",
+        "Jozef Síkela_0.png",
+        "Kaja Kallas_0.png",
+        "Magnus Brunner_0.png",
+        "Maria_Luís_Albuquerque.png",
+        "Maroš Šefčovič_0.png",
+        "Marta Kos_0.png",
+        "Michael McGrath_0.png",
+        "Olivér Várhelyi_0.png",
+        "Piotr Serafin_0.png",
+        "Raffaele Fitto_1.png",
+        "Roxana Mînzatu_0.png",
+        "Stéphane Séjourné_0.png",
+        "Teresa Ribera Rodríguez_0.png",
+        "Valdis Dombrovskis_0.png",
+        "Wopke Hoekstra_0.png"
+    ],
+    "mid": 1675253361525,
+    "name": "Heads of Brussels",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "css": ".card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  font-size: 90%;\n  font-style: italic;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Liberation Sans",
+                    "id": 4935416821292867480,
+                    "name": "Name",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 3874465975754989172,
+                    "name": "Position",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -2486795367276738235,
+                    "name": "Government Body",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 4967608739168124281,
+                    "name": "Nationality",
+                    "ord": 3,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -3138414801744196986,
+                    "name": "Party Affiliation",
+                    "ord": 4,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -2889746198928511941,
+                    "name": "Image",
+                    "ord": 5,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Heads of Brussels",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        5
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div class=type> {{Government Body}} </div>\n<br>\n<div class=value> {{Position}} </div>\n<br>\n<div class=info> {{Nationality}} {{Party Affiliation}} </div>\n{{Image}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "{{Name}}",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 4477742656396463234,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<div class=value> {{Name}} </div>\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div class=value> {{Name}} </div>\n<div class=type> {{Government Body}} </div>\n<br>\n<div class=value> {{Position}} </div>\n<br>\n<div class=info> {{Nationality}} {{Party Affiliation}} </div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -5555882284028722611,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": " {{Image}}\n\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Magnus Brunner",
+                "Kommissar Inneres und Migration",
+                "Europäische Kommission",
+                "🇦🇹",
+                "EVP",
+                "<img alt=\"\" src=\"Magnus Brunner_0.png\">"
+            ],
+            "guid": "tQ13qn]sw:",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Teresa Ribera",
+                "Exekutiv Vizepräsident Sauberer, Fairer und Wettbewerbsfähiger Übergang",
+                "Europäische Kommission",
+                "🇪🇸",
+                "S&amp;D",
+                "<img alt=\"\" src=\"Teresa Ribera Rodríguez_0.png\">"
+            ],
+            "guid": "ryQn_S^4#U",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maroš&nbsp;Šefčovič",
+                "Kommissar Handel | Interinstitutionelle Beziehungen und Transparenz",
+                "Europäische Kommission",
+                "🇸🇰",
+                "parteilos, S&amp;D nah",
+                "<img alt=\"\" src=\"Maroš Šefčovič_0.png\">"
+            ],
+            "guid": "F)$/k7-fC2",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vladis Dombrovskis",
+                "Kommissar Wirtschaft und Produktivität | Implementation und Vereinfachung",
+                "Europäische Kommission",
+                "🇱🇻",
+                "EVP",
+                "<img alt=\"\" src=\"Valdis Dombrovskis_0.png\">"
+            ],
+            "guid": "htj,geQ}+|",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dubravka&nbsp;Šuica",
+                "Kommissarin Mittelmeerraum",
+                "Europäische Kommission",
+                "🇭🇷",
+                "EVP",
+                "<img alt=\"\" src=\"Dubravka Šuica_1.png\">"
+            ],
+            "guid": "KA[A{lMx-%",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Olivér Várhelyi",
+                "Kommissar Gesundheit und Tierwohl",
+                "Europäische Kommission",
+                "🇭🇺",
+                "parteilos, EVP/Patrioten nah",
+                "<img alt=\"\" src=\"Olivér Várhelyi_0.png\">"
+            ],
+            "guid": "uMk=MN>qC/",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wopke Hoekstra",
+                "Kommissar Klima",
+                "Europäische Kommission",
+                "🇳🇱",
+                "EVP",
+                "<img alt=\"\" src=\"Wopke Hoekstra_0.png\">"
+            ],
+            "guid": "xxR#vpdrc2",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Andrius Kubilius",
+                "Kommissar Verteidigung und Weltraum",
+                "Europäische Kommission",
+                "🇱🇹",
+                "EVP",
+                "<img alt=\"\" src=\"Andrius Kubilius_0.png\">"
+            ],
+            "guid": "Pe&2=<v/GV",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Marta Kos",
+                "Kommissarin Erweiterung",
+                "Europäische Kommission",
+                "🇸🇮",
+                "parteilos, Renew nah",
+                "<img alt=\"\" src=\"Marta Kos_0.png\">"
+            ],
+            "guid": "EzC3Etl1EW",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jozef Síkela",
+                "Kommissar Internationale Partnerschaften",
+                "Europäische Kommission",
+                "🇨🇿",
+                "parteilos, EVP nah",
+                "<img alt=\"\" src=\"Jozef Síkela_0.png\">"
+            ],
+            "guid": "<]3`/BOqE",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Costas Kadis",
+                "Kommissar Fischerei und Ozeane",
+                "Europäische Kommission",
+                "🇨🇾",
+                "parteilos, EVP nah",
+                "<img alt=\"\" src=\"Costas Kadis_0.png\">"
+            ],
+            "guid": "DwsS70U<SK",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maria Luís Albuquerque",
+                "Kommissarin Finanzdienstleistungen, Spar- und Investionsunion",
+                "Europäische Kommission",
+                "🇵🇹",
+                "S&amp;D",
+                "<img alt=\"\" src=\"Maria_Luís_Albuquerque.png\">"
+            ],
+            "guid": "A0-nSbYH.R",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hadja Lahbib",
+                "Kommissarin Vorsorge und Krisenmanagement | Gleichberechtigung",
+                "Europäische Kommission",
+                "🇧🇪",
+                "parteilos, Renew nah",
+                "<img alt=\"\" src=\"Hadja Lahbib_0.png\">"
+            ],
+            "guid": "o4p)r[X>n<",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jessika Roswall",
+                "Kommissarin Umwelt, Wassersicherheit und Kreislaufwirtschaft",
+                "Europäische Kommission",
+                "🇸🇪",
+                "EVP",
+                "<img alt=\"\" src=\"Jessika Roswall_0.png\">"
+            ],
+            "guid": "e@,=qeEL/b",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Piotr Serafin",
+                "Kommissar Haushalt, Betrugsbekämpfung und Öffentliche Verwaltung",
+                "Europäische Kommission",
+                "🇵🇱",
+                "EVP",
+                "<img alt=\"\" src=\"Piotr Serafin_0.png\">"
+            ],
+            "guid": "M`k^W-v@Md",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dan Jørgensen",
+                "Kommissar Energie und Wohnungswesen",
+                "Europäische Kommission",
+                "🇩🇰",
+                "S&amp;D",
+                "<img alt=\"\" src=\"Dan Jørgensen_0.png\">"
+            ],
+            "guid": "RaL/n!|mij",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ekaterina Zaharieva",
+                "Kommissarin Startups, RnD",
+                "Europäische Kommission",
+                "🇧🇬",
+                "EVP",
+                "<img alt=\"\" src=\"Ekaterina Zaharieva_0.png\">"
+            ],
+            "guid": "j.=~#[|u%Q",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Michael McGrath",
+                "Kommissar Demokratie, Justiz und Rechtstaatlichkeit",
+                "Europäische Kommission",
+                "🇮🇪",
+                "Renew",
+                "<img alt=\"\" src=\"Michael McGrath_0.png\">"
+            ],
+            "guid": "lk9kF|I5.g",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Apostolos Tzitzikostas",
+                "Kommissar Nachhaltigen Transport und Tourismus",
+                "Europäische Kommission",
+                "🇬🇷",
+                "EVP",
+                "<img alt=\"\" src=\"Apostolos_Tzitzikostas.png\">"
+            ],
+            "guid": "G_|~N}s>;E",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Christophe Hansen",
+                "Kommissar Landwirtscahft und Nahrungsmittel",
+                "Europäische Kommission",
+                "🇱🇺",
+                "EVP",
+                "<img alt=\"\" src=\"Christophe.Hansen.png\">"
+            ],
+            "guid": "h:|C.xWO+w",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Glenn Micallef",
+                "Kommisar Generationengerechtigkeit, Jugend, Kultur und Sport",
+                "Europäische Kommission",
+                "🇲🇹",
+                "S&amp;D",
+                "<img alt=\"\" src=\"Glenn Micallef_0.png\">"
+            ],
+            "guid": "c<CYEeP2j7",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Stéphane Séjourné",
+                "Exekutiv-Vizepräsident Wohlstand und Industrie",
+                "Europäische Kommission",
+                "🇫🇷",
+                "Renew",
+                "<img alt=\"\" src=\"Stéphane Séjourné_0.png\">"
+            ],
+            "guid": "iVe%j[.$=s",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Roxana Mînzatu",
+                "Exekutiv-Vizepräsidentin Fachkräfte, Kompetenzen und Vorsorge",
+                "Europäische Kommission",
+                "🇷🇴",
+                "S&amp;D",
+                "<img alt=\"\" src=\"Roxana Mînzatu_0.png\">"
+            ],
+            "guid": "Ot$z5A@d9Y",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Raffaele Fitto",
+                "Exekutiv-Vizepräsident Kohäsion und Reformen",
+                "Europäische Kommission",
+                "🇮🇹",
+                "EKR",
+                "<img alt=\"\" src=\"Raffaele Fitto_1.png\">"
+            ],
+            "guid": "BZWmSN;^1F",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kaja Kallas",
+                "HRVP Außen und Sicherheitspolitik",
+                "Europäische Kommission",
+                "🇪🇪",
+                "Renew",
+                "<img alt=\"\" src=\"Kaja Kallas_0.png\">"
+            ],
+            "guid": "i.AMl=6$X^",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Henna Virkkunen",
+                "Exekutiv-Vizepräsidentin Sicherheit, Demokraite und technologische Souveränität",
+                "Europäische Kommission",
+                "🇫🇮",
+                "EVP",
+                "<img alt=\"\" src=\"Henna Virkkunen_0.png\">"
+            ],
+            "guid": "sz6?UpqYTN",
+            "note_model_uuid": "c69206b6-9eaf-11ef-9331-f5c2ce7b5355",
+            "tags": [
+                "HB::Commission_vdL_II"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
